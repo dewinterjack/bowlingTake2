@@ -18,7 +18,14 @@
 
 **Frame**
 
-* Stores a value for a roll in variables roll1 and roll2 respectively
+* Stores a value for a roll in variables roll1 and roll2 respectively.
 * Bonuses are recorded in roll2 regardless of where earned (Strike will show in roll2).
 * Frame score is calculated after a bonus has been applied or a frame is complete.
 * Frame score is the total of a frame and every frame before it (game total so far).
+
+*Rules*
+
+* A game must have 10 frames
+* A frame can only have 2 rolls except for frame 10 that could have 3.
+* A frame cannot exceed 10 pins hit
+
