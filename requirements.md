@@ -11,6 +11,10 @@
 * Stores the current frame in a variable
 * Stores a bonus array of frames that need a bonus
 * Game total is calculated after the last frame is completed **only**.
+* A roll can be made, this will progress the game and take a score.
+* A roll will be prevented if it doesn't fit the game rules.
+* Game rules will determine if frame enforcement will be applied (must be 10 frames).
+* Dev game rules will allow easy testing, so a 3 frame game can be run.
 
 **Frame**
 
